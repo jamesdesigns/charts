@@ -17,7 +17,7 @@ const chartConfig = (label, data, bgColor, brdColor) => {
           responsive: true,
           animation: {
               duration: 2000, // Animation duration
-              easing: 'easeInOutBounce'
+              easing: 'linear'
           },
           scales: {
               y: {
